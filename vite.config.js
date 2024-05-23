@@ -6,8 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["@emailjs/browser"],
-      external: ["sweetalert2"],
+      external: ["sweetalert2", "@emailjs/browser"],
     },
   },
 });
