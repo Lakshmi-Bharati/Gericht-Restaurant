@@ -14,6 +14,7 @@ import {
 import { Navbar } from "./components";
 import "./App.css";
 import "./index.css";
+import BookTable from "./container/Table/BookTable";
 
 const App = () => (
   <div>
@@ -26,6 +27,7 @@ const App = () => (
     <Laurels />
     <Gallery />
     <FindUs />
+    <BookTable />
     <Footer />
   </div>
 );

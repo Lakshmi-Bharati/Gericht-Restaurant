@@ -1,0 +1,90 @@
+.app__table {
+  display: flex;
+  flex-direction: row;
+  background: var(--color-black);
+  padding: 4rem 0 4rem 6rem;
+  justify-content: center;
+}
+
+.app__table {
+  text-align: center;
+}
+
+#p__book {
+  padding-bottom: 2rem;
+}
+
+.table__form {
+  width: 750px;
+  border: 1px solid var(--color-golden);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.table__input {
+  width: 620px;
+  border: 1px solid var(--color-golden);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: var(--font-base);
+  color: var(--color-white);
+  margin-right: 2rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-black);
+  margin: auto;
+}
+
+.table__button {
+  width: 10rem;
+  margin: auto;
+}
+
+.table__error {
+  padding: 0;
+  margin: 0;
+  color: red;
+}
+
+@media (min-width: 2000px) {
+  .table__input {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 990px) {
+  .table__form {
+    flex-direction: column;
+    width: 100%;
+  }
+  .table__input {
+    margin: 0 0 2rem 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 790px) {
+  .table__form {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .app__table {
+    padding: 2rem 0;
+  }
+
+  .table__form {
+    flex-direction: column;
+    width: 100%;
+    border: none;
+  }
+}
+
+@media (max-width: 300px) {
+  .app__table-content h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+}
